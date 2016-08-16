@@ -1,0 +1,98 @@
+body {
+  margin: 0px;
+  font-family:Helvetica, arial, sans-serif;
+}
+
+#header {
+  background-color: #333844;
+  color: #fff;
+  height: 50px;
+  line-height:50px;
+  padding: 0px 20px;
+  font-size:16px;
+}
+
+.appBody {
+  max-width:1200px;
+  margin:auto;
+  padding-top:20px;
+}
+
+#ticketForm {
+  width: 60%;
+  margin:auto;
+}
+
+#ticketButtonContainer {
+  text-align: right;
+}
+
+#ticketInput {
+  width:calc(100% - 22px);
+  height:100px;
+  resize: none;
+  font-size: 16px;
+  padding: 10px;
+  color: #555;
+}
+
+#ticketInput:focus {
+  outline: none;
+}
+
+#ticketButton {
+  border-radius: 0px;
+  width: 100px;
+  height: 25px;
+  background-color: #333844;
+  border:1px solid #333844;
+  border: none;
+  color: white;
+  font-size: 12px;
+}
+
+#ticketButton:hover {
+  color: #060606;
+  background-color: white;
+  border:1px solid #060606;
+  cursor:pointer;
+}
+
+#ticketButton:active {
+  background-color: #c5d4ff;
+}
+
+#ticketButton:focus {
+  outline: none;
+}
+
+#ticketList {
+  width: 60%;
+  margin:auto;
+  margin-top:20px;
+}
+
+.ticket {
+  padding:15px;
+  border: 1px solid lightgrey;
+  border-top: 0px;
+}
+
+.ticket:first-child {
+  border-top: 1px solid lightgrey;
+}
+
+.ticketContent {
+  font-size:16px;
+  display:inline-block;
+}
+
+.ticketDelete {
+  font-size:12px;
+  cursor: pointer;
+  float:right;
+}
+
+.ticketDelete:hover {
+  text-decoration:underline;
+}
